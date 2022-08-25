@@ -222,3 +222,6 @@ C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\ob
 C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\obj\Debug\net6.0\SeleniumCSharpNetCore.pdb
 C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\obj\Debug\net6.0\SeleniumCSharpNetCore.genruntimeconfig.cache
 C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\obj\Debug\net6.0\ref\SeleniumCSharpNetCore.dll
+C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\bin\Debug\net6.0\AngleSharp.dll
+C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\bin\Debug\net6.0\ICSharpCode.SharpZipLib.dll
+C:\Users\bkalmis\Documents\GitHub\SeleniumCSharpNetCore\SeleniumCSharpNetCore\bin\Debug\net6.0\WebDriverManager.dll
