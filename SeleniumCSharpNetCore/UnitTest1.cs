@@ -22,8 +22,8 @@ namespace SeleniumCSharpNetCore
 
             Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
             Driver.FindElement(By.XPath("(//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1'])[1]")).Click();
-            
-            Console.WriteLine("Test1");
+
+            Console.WriteLine("Test 1");
             Assert.Pass();
         }
     }
