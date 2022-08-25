@@ -13,6 +13,7 @@ namespace SeleniumCSharpNetCore
             Console.WriteLine("Setup");
             ChromeOptions options = new ChromeOptions();
             Driver = new ChromeDriver();
+            Driver.Manage().Window.Maximize();
         }
 
 
@@ -23,10 +24,15 @@ namespace SeleniumCSharpNetCore
             Driver.Navigate().GoToUrl("https://demowf.aspnetawesome.com/");
 
             Driver.FindElement(By.Id("ContentPlaceHolder1_Meal")).SendKeys("Tomato");
-            Driver.FindElement(By.XPath("(//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1'])[1]")).Click();
+            //Driver.FindElement(By.XPath("(//input[@name='ctl00$ContentPlaceHolder1$ChildMeal1'])[1]")).Click();
 
             Console.WriteLine("Test 1");
             Assert.Pass();
+        }
+        [TearDown]
+        public void AfterClose()
+        {
+            Driver.Quit();
         }
     }
 }
