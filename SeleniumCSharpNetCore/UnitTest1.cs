@@ -15,6 +15,8 @@ namespace SeleniumCSharpNetCore
             Driver = new ChromeDriver();
         }
 
+
+
         [Test]
         public void Test1()
         {
